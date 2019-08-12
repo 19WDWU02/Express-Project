@@ -13,7 +13,12 @@ app.use(express.static('./public'));
 //
 // });
 
+//Jquery
+//Popper.js
+app.use('/jquery', express.static(path.join(__dirname, 'node_modules/jquery/dist')));
+app.use('/popper', express.static(path.join(__dirname, 'node_modules/popper.js/dist/umd')));
 app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
+
 
 // app.get('/', (req, res) => res.send('Hello World'));
 // app.get('/about', (req, res) => res.send('This is the about page'));
