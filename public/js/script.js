@@ -1,1 +1,4 @@
-console.log('js has loaded');
+
+$(document).ready(function(){
+  console.log('js has loaded');
+})
