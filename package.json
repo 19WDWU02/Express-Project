@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/19WDWU02/Express-Project/issues"
   },
-  "homepage": "https://github.com/19WDWU02/Express-Project#readme"
+  "homepage": "https://github.com/19WDWU02/Express-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
